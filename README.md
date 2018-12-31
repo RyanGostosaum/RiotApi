@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# LoL Dev Contest
 
 ## Available Scripts
 
@@ -25,6 +25,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Info 
 
-### `npm run eject`
+I'm using the Reddit api to get post around the League of Legends community
+
+## Ideas 
+
+Use `Riot Api` to get the latest matches and help players to improve self game skills 

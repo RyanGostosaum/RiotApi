@@ -1,15 +1,19 @@
 import React, { Component } from 'react';
-import './App.css';
-import { createStore } from 'redux'
-import Home from './views/home.js';
-import rootReducer from './reducers'
+import 'babel-polyfill';
+//Redux stuff
 import { Provider } from "react-redux";
-const store = createStore(rootReducer)
+import configureStore from "./store/configureStore";
+
+//should be routes
+import AsyncApp from './views/AsyncApp';
+
+const store = configureStore()
+
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <Home/>
+        <AsyncApp/>
       </Provider>
     );
   }
